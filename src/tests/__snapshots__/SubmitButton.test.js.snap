@@ -4,6 +4,7 @@ exports[`should render SubmitButton correctly 1`] = `
 <div>
   <button
     className="button"
+    onClick={[Function]}
     type="submit"
   >
     Search

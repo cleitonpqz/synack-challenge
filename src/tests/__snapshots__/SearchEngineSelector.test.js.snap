@@ -5,6 +5,7 @@ exports[`should render SearchEngineSelector correctly 1`] = `
   <select
     id="search-engine-selector"
     name="search-engine"
+    onChange={[Function]}
   >
     <option
       value=""

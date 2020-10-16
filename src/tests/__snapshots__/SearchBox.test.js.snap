@@ -3,7 +3,9 @@
 exports[`should render SearchBox correctly 1`] = `
 <div>
   <input
+    onChange={[Function]}
     type="text"
+    value=""
   />
 </div>
 `;
