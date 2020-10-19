@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import SearchBox from './components/SearchBox';
-import SearchEngineSelector from './components/SearchEngineSelector';
-import SubmitButton from './components/SubmitButton';
+import SearchControls from './components/SearchControls';
+import SearchResults from './components/SearchResults';
 
 function App() {
   return (
     <div className="App">
-      <SearchBox />
-      <SearchEngineSelector />
-      <SubmitButton />
+      <SearchControls />
+      <SearchResults />
     </div>
   );
 }

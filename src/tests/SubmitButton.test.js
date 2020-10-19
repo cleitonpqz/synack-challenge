@@ -1,8 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from './test-utils';
 import SubmitButton from '../components/SubmitButton';
 
 it('should render SubmitButton correctly', () => {
-  const component = renderer.create(<SubmitButton />).toJSON();
+  const component = render(<SubmitButton />);
   expect(component).toMatchSnapshot();
 });
